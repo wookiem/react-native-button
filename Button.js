@@ -1,16 +1,16 @@
 'use strict';
 
-var React = require('react-native');
-var {
+import React, { PropTypes } from 'react';
+import 
+{
   View,
   TouchableOpacity,
   Text,
   StyleSheet,
-  PropTypes,
   ActivityIndicatorIOS,
   ProgressBarAndroid,
   Platform
-} = React;
+} from 'react-native';
 
 var Button = React.createClass({
   propTypes: Object.assign({},
